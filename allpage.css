@@ -1,4 +1,14 @@
-/* create a  simple background for the page */
+/* add image to the background as a cover */
 body {
-    background-color: bisque;
+  background-image: url("../img/code-g40ed3236d_1280.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
 }
