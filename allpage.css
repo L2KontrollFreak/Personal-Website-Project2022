@@ -12,3 +12,51 @@ body {
     width: 100vw;
 
 }
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: #FFA214;
+}
+/* Style the header */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  padding: auto;
+  text-align: center;
+  background-color: #FFA214;
+}
+h1{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 50px;
+  color: #FFA214;
+  text-align: center;
+  text-shadow: 2px 2px #FFA214;
+}
+p{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+  color: #FFA214;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+h2{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+  color: #FFA214;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
