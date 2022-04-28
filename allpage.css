@@ -74,39 +74,54 @@ nav ul li a:hover{
   color: #ffa472;
 }
 footer{
-  width: 100%;
-  height: 100px;
-  background-color: #ffa472;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
+min-height: 100px;
+background-color: #ffa472;
+margin-top: 100px;
+padding: 20px;
 }
-/* create a navigation in the footer */
-footer ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
+footer section{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-footer ul li{
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-footer ul li a{
+footer section a{
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px;
 }
-footer ul li a:hover{
-  background-color: #fff;
+footer section a:hover{
   color: #ffa472;
 }
+.footer-copyright{
+  text-align: center;
+  color: #fff;
+}
+.footer-copyright p{
+  margin: 0;
+}
+.footer-copyright p span{
+  color: #ffa472;
+}
+.footer-copyright p span:hover{
+  color: #fff;
+}
+.footer-copyright p a{
+  color: #fff;
+}
+.footer-copyright p a:hover{
+  color: #ffa472;
+}
+footer input{
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #ffa472;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 .dropdown{
   position: relative;
   display: inline-block;
