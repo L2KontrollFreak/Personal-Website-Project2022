@@ -100,3 +100,34 @@ body {
     width: 100%;
   }
 }
+.name{
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.email{
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  font-family: cursive;
+}
+.phone{
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  font-family: cursive;
+}
+.message{
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  font-family: cursive;
+}
+.text{
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  font-family: cursive;
+}

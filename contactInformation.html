@@ -8,17 +8,35 @@
     <link rel="stylesheet" href="allpage.css">
 </head>
 <body>
-    <nav>
-       <!--create am active navigation bar -->
-        <ul class="topbar">
-           <li><a class="active" href=contactInformation.html>Contact</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-        </ul>
-    </nav>
-    <!-- create a information form for the user to read -->
-    <h1>Contact Me</h1>
-    
-</html>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="contactInformation.html" style="float:right">Contact</a>
+        <a href="Resume.html" style="float:left">Resume</a>
+ <form method="post" action="/contactInformation.html">
+ <!-- first row or column -->
+ <div class="name">
+    <label for="name" class="required">Name:</label>
+    <input type="text" placeholder="Enter your name" name="name" id="name" required title="Enter your name">
+ </div>
+<div class="email">
+    <label for="email" class="required">Email:</label>
+    <input type="email" placeholder="youlol@gmexample.com" name="email" id="email" required>
+</div>
+<div class="phone">
+    <label for="phone" class="required">Phone:</label>
+    <input type="tel" placeholder="(123)456-7890" name="phone" id="phone" required>
+</div>
+<!-- second row or column -->
+<div class="message">
+    <label for="message" class="required">Message:</label>
+    <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
+</div>
+<div class="text">
+<label for="text">Thank you for your information please if you have any concerns please add more in this form</label>
+<textarea name="text" id="text" row="10" cols="30"></textarea>
+<span id="text-count" class="hide">140</span>
+</div>
+<div class="submit"><input type="submit"></div>
+</form>
