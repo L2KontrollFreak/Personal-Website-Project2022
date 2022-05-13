@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
-}
 
+}
+img {
+  max-width: 100%;
+}
 body {
   font-family: cursive;
   padding: 10px;
@@ -59,8 +62,9 @@ body {
 /* image */
 .img {
   background-color: #ffa472;
-  width: 100%;
-  padding: 20px;
+  width: 74%;
+  padding: 10px;
+  display: flex;
 }
 
 /* Add a card effect for articles */
