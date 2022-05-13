@@ -38,10 +38,27 @@
           <div class="card">
             <h2>Portfolio</h2>
             <h5>this is my Portfolio for each of my website</h5>
-            <div class="img" style="height:226px;">
-              <img src="img/chrono.png" alt="chrono">
-               <img src="img/JavaScream.PNG" alt="JavaScream">
-              <img src="img/MaxSteelFanMade.PNG" alt="MaxSteel">
+            <div class="img">
+             <img class="SlideShow" src="img/chrono.png">
+              <img class="SlideShow" src="img/JavaScream.png">
+              <img class="SlideShow" src="img/MaxSteelFanMade.png">
+              <script>
+                var myIndex = 0;
+                carousel();
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("SlideShow");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {
+                    myIndex = 1;
+                  }
+                  x[myIndex - 1].style.display = "block";
+                  setTimeout(carousel, 2000);
+                }
+              </script>
             </div> 
             <a href="https://chronoexpedition.netlify.app/" class="button" target="_blank" title="chronoshift expedition">Chronoshift expedition project</a>
             <a href="https://replit.com/@L2KontrollFreak/javascript-practice#index.html" target="_blank">JavaScream</a>
